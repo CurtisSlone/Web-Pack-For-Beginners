@@ -1,0 +1,23 @@
+{
+  "name": "webpack-for-beginners",
+  "version": "1.0.0",
+  "description": "Webpack for beginners speed run",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CurtisSlone/Web-Pack-For-Beginners.git"
+  },
+  "author": "Curtis Slone",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CurtisSlone/Web-Pack-For-Beginners/issues"
+  },
+  "homepage": "https://github.com/CurtisSlone/Web-Pack-For-Beginners#readme",
+  "devDependencies": {
+    "webpack": "^5.57.1",
+    "webpack-cli": "^4.8.0"
+  }
+}
