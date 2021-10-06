@@ -4,7 +4,10 @@
   "description": "Webpack for beginners speed run",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "webpack": "node_modules/.bin/webpack",
+    "dev": "node_modules/.bin/webpack --mode=development",
+    "build": "node_modules/.bin/webpack --config my-config.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +20,7 @@
   },
   "homepage": "https://github.com/CurtisSlone/Web-Pack-For-Beginners#readme",
   "devDependencies": {
+    "path": "^0.12.7",
     "webpack": "^5.57.1",
     "webpack-cli": "^4.8.0"
   }
