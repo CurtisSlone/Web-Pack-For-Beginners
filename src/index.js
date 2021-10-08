@@ -1,3 +1,5 @@
 // var greet = require('./greeting.js')
-import greet from './greeting'
+import {greet, sayHello} from './greeting'
+import application from "./application.scss"
 greet
+sayHello()
